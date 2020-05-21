@@ -13,13 +13,13 @@ $ cd nodecontactform
 ```sh
 $ npm install
 ```
-Make the config directory to store your secrets information and variables used in the app within the root folder of this app
+Make a secret.js file in the /config directory to store your variables. 
 
 ```sh
-$ mkdir config
+$ touch config/secret.js
 ```
 ```
-Paste the following variables and save.
+Paste the following variables into config/secret.js file and save.
 module.exports = {
     host: 'your_email_server',
     secret: 'Password_to_inbox_user', 
